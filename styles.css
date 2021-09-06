@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+.banner{
+	width: 100%;
+	height: 90vh;
+	position: relative;
+	overflow: hidden;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-pixabay-373543.jpg);
+	background-size: covee;
+	background-position: top-center;
+	padding: 0;
+	margin: 0;
+	background-repeat: no repeat;
+}
+.navbar{
+	width: 100%%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 200px;
+	cursor: pointer;
+	background-color: grey;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase; 
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -35%;
+	transition: 0.5s;
+	
+}
+.navbar ul li:hover::after{
+	width: 100%;
+
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50px);
+	text-align: center;
+	color: darkred;
+}
+.content h1{
+	font-size: 70px;
+	margin-top: 80px;
+
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+
+
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+#image-1{
+	image position: absolute;
+	padding: 20px;
+	width: 100%;
+	height: 200px;
+	background-image: url(kisspng-dstv-multichoice-television-channel-supersport-high-end-decadent-strokes-5aee29bfb15480.5670399115255576957264.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: auto 250px;
+	top: -10px;
+	left: -25px;
+}
+#image-2{
+	image position: absolute;
+	padding: 20px;
+	width: 100%;
+	height: 300px;
+	background-image: url(kisspng-supersport-high-definition-television-television-c-5af0f844b819c8.0503981915257416367541.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: auto 250px;
+}
+#image-3{
+	image position: absolute;
+	padding: 10px;
+	width: 100%;
+	height: 200px;
+	background-image: url(kisspng-dstv-multichoice-satellite-television-starsat-sou-5b0e0e408b7380.9213475915276478085712.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: auto 300px;
+}
+#image-4
+	{image position: absolute;
+	padding: 15px;
+	width: 100%;
+	height: 200px;
+	background-image: url(kisspng-logo-m-net-television-channel-5b01ec08e206a3.8085193215268526169258.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: auto 150px;
+}
+#image-5{
+	image position: absolute;
+	padding: 15px;
+	width: 100%;
+	height: 350px;
+	background-image: url(kisspng-dstv-installations-satellite-television-multichoic-5b333d8edb3704.2664886715300847508979.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: auto 350px;
+
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 200px;
+	cursor: pointer;
+	background-color: grey;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase; 
+}
+
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -35%;
+	transition: 0.5s;
+	
+}
+.navbar ul li:hover::after{
+	width: 100%;
+
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50px);
+	text-align: center;
+	color: darkred;
+}
+.content h1{
+	font-size: 70px;
+	margin-top: 80px;
+
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+
+
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
